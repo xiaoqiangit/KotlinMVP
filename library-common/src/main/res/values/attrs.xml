@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="CommonMultipleStatusView">
+        <attr name="CommonLoadingView" format="reference"/>
+        <attr name="CommonErrorView" format="reference"/>
+        <attr name="CommonEmptyView" format="reference"/>
+        <attr name="CommonNoNetworkView" format="reference"/>
+        <attr name="CommonContentView" format="reference"/>
+    </declare-styleable>
+
+</resources>

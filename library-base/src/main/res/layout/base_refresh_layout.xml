@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.xiaoqiang.library_common.widget.MultipleStatusView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/mMultipleStatusView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:CommonEmptyView="@layout/common_layout_empty_view"
+    app:CommonErrorView="@layout/common_layout_error_view"
+    app:CommonLoadingView="@layout/common_layout_loading_view"
+    app:CommonNoNetworkView="@layout/common_layout_network_view">
+
+    <com.scwang.smartrefresh.layout.SmartRefreshLayout
+        android:id="@+id/mSmartRefreshLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/RecyclerView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:overScrollMode="never"
+            android:scrollbars="none" />
+
+    </com.scwang.smartrefresh.layout.SmartRefreshLayout>
+
+</com.xiaoqiang.library_common.widget.MultipleStatusView>

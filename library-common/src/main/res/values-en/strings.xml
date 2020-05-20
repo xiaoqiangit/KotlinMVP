@@ -1,0 +1,8 @@
+<resources>
+    <string name="common_load_view_hint">Load…</string>
+    <string name="common_empty_view_hint">Empty…</string>
+    <string name="common_error_view_hint">Load Failed</string>
+    <string name="common_no_network_view_hint">Network</string>
+    <string name="common_cancel">Cancel</string>
+    <string name="common_confirm">Confirm</string>
+</resources>

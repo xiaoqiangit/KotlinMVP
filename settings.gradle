@@ -1,0 +1,6 @@
+include ':library-base',':library-common'
+include ':app',  ':module_main'
+include ':module_drainage'
+include ':module_business_card'
+include ':module_mine'
+include ':module_login'

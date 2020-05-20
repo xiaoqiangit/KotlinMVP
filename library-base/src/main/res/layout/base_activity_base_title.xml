@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+    <include
+            android:id="@+id/mBaseToolbar"
+            layout="@layout/base_toolbar" />
+
+    <com.xiaoqiang.library_common.widget.MultipleStatusView
+            android:id="@+id/mMultipleStatusView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:CommonEmptyView="@layout/common_layout_empty_view"
+            app:CommonErrorView="@layout/common_layout_error_view"
+            app:CommonLoadingView="@layout/common_layout_loading_view"
+            app:CommonNoNetworkView="@layout/common_layout_network_view">
+
+        <FrameLayout
+                android:id="@+id/mBaseContainer"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+    </com.xiaoqiang.library_common.widget.MultipleStatusView>
+
+
+</LinearLayout>

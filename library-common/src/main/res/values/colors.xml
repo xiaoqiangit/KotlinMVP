@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="common_color_333333">#333333</color>
+    <color name="common_color_999999">#999999</color>
+    <color name="common_color_withe">#FFFFFF</color>
+    <color name="common_transparent_75">#ba000000</color>
+
+</resources>

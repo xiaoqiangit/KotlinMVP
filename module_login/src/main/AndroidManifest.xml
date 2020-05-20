@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.xiaoqiang.module_login">
+
+    <application>
+
+        <!--登录页面-->
+        <activity android:name="com.xiaoqiang.module_login.LoginActivity" />
+
+    </application>
+
+</manifest>

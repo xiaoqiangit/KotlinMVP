@@ -1,0 +1,8 @@
+<resources>
+    <string name="common_load_view_hint">玩命加载中...</string>
+    <string name="common_empty_view_hint">空空如也</string>
+    <string name="common_error_view_hint">加载失败</string>
+    <string name="common_no_network_view_hint">木有网络</string>
+    <string name="common_cancel">取消</string>
+    <string name="common_confirm">确定</string>
+</resources>

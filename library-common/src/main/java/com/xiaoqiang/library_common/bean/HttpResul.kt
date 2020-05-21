@@ -7,7 +7,7 @@ import com.squareup.moshi.Json
  *
  * @time 2020/5/15  11:01
  *
- * @desc
+ * @desc 网络请求数据
  *
  */
 data class HttpResult<T>(@Json(name = "data") val data: T) : BaseEntity() {
